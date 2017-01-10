@@ -1,0 +1,106 @@
+@font-face {
+  font-family: Jrhand;
+  src: url(../external-font/jrhand.ttf); }
+@font-face {
+  font-family: avenirnext-ultralight;
+  src: url(../external-font/avenirnext-ultralight.ttf); }
+.transparent {
+  background-color: transparent; }
+
+div.floating-menu-mobile {
+  margin: 14px auto auto auto;
+  background-color: #7e0000;
+  overflow: hidden;
+  display: none; }
+  div.floating-menu-mobile div.logo-container {
+    height: 53px; }
+  div.floating-menu-mobile div.icon-container {
+    padding-top: 12px;
+    margin: auto;
+    height: 53px;
+    display: block;
+    width: auto; }
+  div.floating-menu-mobile div.collapse-menu {
+    background-color: #8a1919;
+    z-index: 2;
+    position: relative; }
+
+div.button-container:hover {
+  transition: 0.4s;
+  background-color: #973232;
+  z-index: 1 !important; }
+
+div.button-container {
+  transition: 0.4s;
+  padding-top: 5px;
+  height: 53px; }
+
+h1.button {
+  font-family: Jrhand;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.45;
+  text-align: center;
+  color: #ffffff; }
+
+div.floating-menu {
+  margin: 14px auto auto auto;
+  background-color: #7e0000;
+  overflow: hidden; }
+  div.floating-menu div.logo-container {
+    height: 53px; }
+
+div.pages {
+  height: 768px; }
+
+img.atriumnation-logo {
+  display: block;
+  margin: 271px auto;
+  width: 365px; }
+
+h1.atriumnation-about {
+  padding-top: 25%;
+  margin: auto;
+  width: 80%;
+  height: 110px;
+  font-family: avenirnext-ultralight;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  text-align: center;
+  color: #b76e79; }
+
+.rosegold {
+  background: rgba(183, 110, 121, 0.5);
+  background: -moz-linear-gradient(top, rgba(183, 110, 121, 0.5) 0%, rgba(183, 110, 121, 0.3) 10%, rgba(183, 110, 121, 0.1) 25%, rgba(183, 110, 121, 0.05) 40%, rgba(183, 110, 121, 0) 50%, rgba(183, 110, 121, 0.05) 60%, rgba(183, 110, 121, 0.1) 75%, rgba(183, 110, 121, 0.3) 90%, rgba(183, 110, 121, 0.5) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183, 110, 121, 0.5)), color-stop(10%, rgba(183, 110, 121, 0.3)), color-stop(25%, rgba(183, 110, 121, 0.1)), color-stop(40%, rgba(183, 110, 121, 0.05)), color-stop(50%, rgba(183, 110, 121, 0)), color-stop(60%, rgba(183, 110, 121, 0.05)), color-stop(75%, rgba(183, 110, 121, 0.1)), color-stop(90%, rgba(183, 110, 121, 0.3)), color-stop(100%, rgba(183, 110, 121, 0.5)));
+  background: -webkit-linear-gradient(top, rgba(183, 110, 121, 0.5) 0%, rgba(183, 110, 121, 0.3) 10%, rgba(183, 110, 121, 0.1) 25%, rgba(183, 110, 121, 0.05) 40%, rgba(183, 110, 121, 0) 50%, rgba(183, 110, 121, 0.05) 60%, rgba(183, 110, 121, 0.1) 75%, rgba(183, 110, 121, 0.3) 90%, rgba(183, 110, 121, 0.5) 100%);
+  background: -o-linear-gradient(top, rgba(183, 110, 121, 0.5) 0%, rgba(183, 110, 121, 0.3) 10%, rgba(183, 110, 121, 0.1) 25%, rgba(183, 110, 121, 0.05) 40%, rgba(183, 110, 121, 0) 50%, rgba(183, 110, 121, 0.05) 60%, rgba(183, 110, 121, 0.1) 75%, rgba(183, 110, 121, 0.3) 90%, rgba(183, 110, 121, 0.5) 100%);
+  background: -ms-linear-gradient(top, rgba(183, 110, 121, 0.5) 0%, rgba(183, 110, 121, 0.3) 10%, rgba(183, 110, 121, 0.1) 25%, rgba(183, 110, 121, 0.05) 40%, rgba(183, 110, 121, 0) 50%, rgba(183, 110, 121, 0.05) 60%, rgba(183, 110, 121, 0.1) 75%, rgba(183, 110, 121, 0.3) 90%, rgba(183, 110, 121, 0.5) 100%);
+  background: linear-gradient(to bottom, rgba(183, 110, 121, 0.5) 0%, rgba(183, 110, 121, 0.3) 10%, rgba(183, 110, 121, 0.1) 25%, rgba(183, 110, 121, 0.05) 40%, rgba(183, 110, 121, 0) 50%, rgba(183, 110, 121, 0.05) 60%, rgba(183, 110, 121, 0.1) 75%, rgba(183, 110, 121, 0.3) 90%, rgba(183, 110, 121, 0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b76e79', endColorstr='#b76e79', GradientType=0 ); }
+
+@media (max-width: 575px) {
+  div.floating-menu {
+    display: none; }
+
+  div.floating-menu-mobile {
+    display: table; }
+
+  div.pages {
+    height: 384px; }
+
+  h1.atriumnation-about {
+    font-size: 15px; }
+
+  img.atriumnation-logo {
+    width: 300px; } }
+@media (max-width: 750px) {
+  h1.atriumnation-about {
+    padding-top: 20%; } }
+
+/*# sourceMappingURL=style-home.css.map */
