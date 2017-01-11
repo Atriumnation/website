@@ -32,7 +32,6 @@ div.floating-menu-mobile{
 }
 
 div.button-container:hover{
-
   transition: 0.4s;
   background-color: #973232;
   z-index: 1 !important;
@@ -64,11 +63,32 @@ div.floating-menu{
 div.pages{
   height: 768px;
 }
-img.atriumnation-logo{
-  display: block;
-  margin: 271px auto;
-  width: 365px;
+
+div.competition-border-1{
+  background-color: #b76e79;
+  height: 45%;
+  max-height: 200px;
+  padding: 2.5% 0;
+  border-right: 2.5px solid #ffffff;
 }
+h1.competition-description{
+  font-family: avenirnext-ultralight;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  text-align: center;
+  color: #ffffff;
+}
+div.competition-border-2{
+  background-color: #b76e79;
+  height: 45%;
+  max-height: 200px;
+  padding: 2.5% 0;
+  border-left: 2.5px solid #ffffff;
+}
+
 h1.atriumnation-about{
   padding-top: 25%;
   margin: auto;
@@ -80,6 +100,37 @@ h1.atriumnation-about{
   font-style: normal;
   font-stretch: normal;
   line-height: 2;
+  text-align: center;
+  color: #b76e79;
+}
+h1.map-caption{
+  height: 100px;
+  font-family: avenirnext-ultralight;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  text-align: center;
+  color: #b76e79;
+}
+h1.competition-text{
+  font-family: avenirnext-ultralight;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  text-align: center;
+  color: #b76e79;
+}
+h1.competition-date{
+  font-family: avenirnext-ultralight;
+  font-size: 25px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
   text-align: center;
   color: #b76e79;
 }
@@ -109,12 +160,29 @@ h1.atriumnation-about{
   h1.atriumnation-about{
     font-size: 15px;
   }
-  img.atriumnation-logo{
-    width: 300px;
+  h1.map-caption{
+    font-size: 15px;
+  }
+  h1.competition-text{
+    font-size: 30px;
+  }
+  h1.competition-date{
+    font-size: 20px;
   }
 }
 @media (max-width: 750px){
   h1.atriumnation-about{
     padding-top: 20%;
+  }
+}
+@media (max-width: 767px){
+  div.competition-border-1{
+    border-right: 0px solid #ffffff;
+  }
+
+  div.competition-border-2{
+    border-left: 0px solid #ffffff;
+    margin-top: 1px;
+    margin-bottom: 200px;
   }
 }

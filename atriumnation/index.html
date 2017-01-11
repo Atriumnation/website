@@ -10,19 +10,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="styles/style-home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Title</title>
 </head>
-<body style="padding: 0; margin: 0;">
+<body style="padding: 0; margin: 0;" id="home">
     <div class="container">
         <div class="navbar navbar-default navbar-fixed-top transparent">
             <!-- FOR DESKTOP SIZE -->
             <div class="row floating-menu">
-                <div class="col-xs-2 button-container">
+                <div class="col-xs-2 button-container" id="buttonHome">
                     <h1 class="button">home</h1>
                 </div>
-                <div class="col-xs-2 button-container">
+                <div class="col-xs-2 button-container" id="buttonAbout">
                     <h1 class="button">about</h1>
                 </div>
                 <div class="col-xs-4 logo-container">
@@ -37,10 +38,10 @@
                         <img src="image/saman-melbourne.jpg" style="width: 85%; display: block; margin: 5px auto;"/>
                     </div>
                 </div>
-                <div class="col-xs-2 button-container">
+                <div class="col-xs-2 button-container" id="buttonGallery">
                     <h1 class="button">gallery</h1>
                 </div>
-                <div class="col-xs-2 button-container">
+                <div class="col-xs-2 button-container" id="buttonContact">
                     <h1 class="button">contact</h1>
                 </div>
             </div>
@@ -95,31 +96,106 @@
                 </div>
             </div>
         </div>
-
     </div>
 
-    <div class="pages">
-        <img src="image/atriumnation-2017.png" class="atriumnation-logo img-fluid"/>
+    <div class="pages" style="margin: 20% auto -20% auto; padding-top: 25px;" >
+        <div class="container">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <img src="image/atriumnation-2017.png" class="img-responsive"/>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
     </div>
-    <div class="pages rosegold">
+    <div class="pages rosegold" id="about">
         <h1 class="atriumnation-about">
             Artiumnation is an Indonesian cultural performance that is held to celebrate the 12th Anniversary of Saman Melbourne
             and to introduce Saman Melbourne to a larger scope. This event will be held on March 11th, 2017 at Melbourne Town Hall.
             Artiumnation in Indonesia means Seni Budaya Tanah Air.
         </h1>
     </div>
-    <div class="pages">
-
+    <div class="pages" style="margin: 20% auto auto auto;">
+        <div class="container">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <img src="image/indonesia-rose-gold.png" class="img-responsive" />
+                <h1 class="map-caption">
+                    With the theme " Fly to Indonesia",<br/>
+                    Saman Melbourne will present the nuances of on-board flight with performances from Sabang to Merauke
+                    accompanied by a magnificent traditional music, mini drama, acapella and famous guest stars.
+                </h1>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
     </div>
-    <div class="pages">
 
+    <div class="pages" id="competition">
+        <div class="container">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h1 class="competition-text">
+                    COMPETITION
+                </h1>
+                <h1 class="competition-date">
+                    Jan 20th - March 4th
+                </h1>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="container-fluid" style="margin: 10% auto auto auto;">
+            <div class="col-sm-6 competition-border-1">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-5"></div>
+                        <div class="col-xs-2">
+                            <img src="image/microphone-white.png" class="img-responsive" />
+                        </div>
+                        <div class="col-xs-5"></div>
+                    </div>
+                    <h1 class="competition-description">
+                        Cover Song (Individual or Band)
+                        Theme: Indonesian Traditional Song (Lagu traditional Indonesia)
+                        Prize : $150 (1st winner only) ; meet and greet
+                    </h1>
+                </div>
+            </div>
+            <div class="col-sm-6 competition-border-2">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-5"></div>
+                        <div class="col-xs-2">
+                            <img src="image/camera-white.png" class="img-responsive" />
+                        </div>
+                        <div class="col-xs-5"></div>
+                    </div>
+                    <h1 class="competition-description">
+                        Photography (Individual)
+                        Theme: The Next Generation (Generasi Penerus Bangsa)
+                        Prize: $100 (1st winner only) ;1 free ticket ; meet and greet
+                    </h1>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function scroll(button, destination){
+            $(button).click(function() {
+                $('html, body').animate({
+                    scrollTop: $(destination).offset().top
+                }, 500);
+            });
+        }
+        scroll("#buttonHome", "#home");
+        scroll("#buttonAbout", "#about")
+
+    </script>
 </body>
 </html>
