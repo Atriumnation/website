@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9bddb60-5b3d-48c9-a0fb-c3900777d0b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style-home.css" afterPath="$PROJECT_DIR$/styles/style-home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style-home.css.map" afterPath="$PROJECT_DIR$/styles/style-home.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style-home.scss" afterPath="$PROJECT_DIR$/styles/style-home.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+            <state relative-caret-position="240">
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,6 +36,7 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -49,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-home.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style-home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/style-home.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2775">
@@ -77,9 +72,9 @@
       <find>logo</find>
       <find>pages</find>
       <find>&quot;button</find>
-      <find>border-1</find>
       <find>id=&quot;home</find>
       <find>id=&quot;abo</find>
+      <find>border-1</find>
     </findStrings>
     <replaceStrings>
       <replace>col-xs-2</replace>
@@ -289,12 +284,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483954641846</updated>
       <workItem from="1483954644589" duration="19271000" />
-      <workItem from="1484096035590" duration="9626000" />
+      <workItem from="1484096035590" duration="9804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28897000" />
+    <option name="totallyTimeSpent" value="29075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1264" height="727" extended-state="0" />
@@ -341,6 +336,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -372,10 +368,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style-home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2775">
+          <caret line="185" column="20" lean-forward="false" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+        <state relative-caret-position="240">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -384,17 +388,10 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style-home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2775">
-          <caret line="185" column="20" lean-forward="false" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
