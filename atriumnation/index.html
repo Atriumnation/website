@@ -105,8 +105,8 @@
         </div>
     </div>
 
-    <div class="pages" style="margin: 20% auto -20% auto; padding-top: 25px;" >
-        <div class="container">
+    <div class="pages" id="page1" style="margin: 20% auto -20% auto; padding-top: 25px;" >
+        <div class="container fadeInBlock">
             <div class="col-md-4"></div>
             <div class="col-md-4">
                 <img src="image/artiumnation-2017.png" class="img-responsive"/>
@@ -115,14 +115,14 @@
         </div>
     </div>
     <div class="pages rosegold">
-        <h1 class="artiumnation-about">
+        <h1 class="artiumnation-about fadeInBlock">
             Artiumnation is an Indonesian cultural performance that is held to celebrate the 12th Anniversary of Saman Melbourne
             and to introduce Saman Melbourne to a larger scope. This event will be held on March 11th, 2017 at Melbourne Town Hall.
             Artiumnation in Indonesia means Seni Budaya Tanah Air.
         </h1>
     </div>
     <div class="pages" style="margin: 20% auto auto auto;">
-        <div class="container">
+        <div class="container fadeInBlock">
             <div class="col-md-1"></div>
             <div class="col-md-10">
                 <img src="image/indonesia-rose-gold.png" class="img-responsive" />
@@ -137,7 +137,7 @@
     </div>
 
     <div class="pages">
-        <div class="container">
+        <div class="container fadeInBlock">
             <div class="col-md-4"></div>
             <div class="col-md-4">
                 <h1 class="competition-text">
@@ -149,7 +149,7 @@
             </div>
             <div class="col-md-4"></div>
         </div>
-        <div class="container-fluid" style="margin: 10% auto auto auto;">
+        <div class="container-fluid fadeInBlock" style="margin: 10% auto auto auto;">
             <div class="col-sm-6 competition-border-1">
                 <div class="container-fluid">
                     <div class="row">
@@ -203,7 +203,30 @@
         }
         //scroll("#buttonHome", "#home");
         //scroll("#buttonAbout", "#about")
+        $('html, body').animate({
+            scrollTop: $("#page1").offset().top-200
+        }, 500);
+        $(function() {
+            $(window).scroll( function(){
 
+
+                $('.fadeInBlock').each( function(i){
+
+                    var bottom_of_object = $(this).position().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                    /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+                    bottom_of_window = bottom_of_window + 200;
+
+                    if( bottom_of_window > bottom_of_object ){
+
+                        $(this).animate({'opacity':'1'},1313);
+
+                    }
+                });
+
+            });
+        });
     </script>
 </body>
 </html>

@@ -102,8 +102,8 @@
         </div>
     </div>
     
-	<div class="pages" style="margin: 20% auto auto auto;" >
-        <div class="container container-fluid">
+	<div class="pages" id="page1" style="margin: 20% auto auto auto;" >
+        <div class="container container-fluid fadeInBlock">
             <div class="col-sm-4 col-sm-offset-0 col-xs-offset-4 col-xs-4">
                 <img src="image/saman-melbourne.jpg" class="img-responsive"/>
             </div>
@@ -120,14 +120,14 @@
 		
 	</div>
 	<div class="pages" style="margin: 10% auto 10% auto;">
-        <div class="container">
+        <div class="container fadeInBlock">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <h1 class="our-mission">OUR MISSION</h1>
             </div>
             <div class="col-sm-3"></div>
         </div>
-		<div class="container" style="margin: 5% auto auto auto;">
+		<div class="container fadeInBlock" style="margin: 5% auto auto auto;">
 			<div class="col-xs-5">
 				<p class="mission-one">
 					To make each of us an ambassador to introduce the beauty of Indonesia.
@@ -152,5 +152,41 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        // this might be necessary
+        function scroll(button, destination){
+            $(button).click(function() {
+                $('html, body').animate({
+                    scrollTop: $(destination).offset().top
+                }, 500);
+            });
+        }
+        //scroll("#buttonHome", "#home");
+        //scroll("#buttonAbout", "#about")
+        $('html, body').animate({
+            scrollTop: $("#page1").offset().top-200
+        }, 500);
+        $(function() {
+            $(window).scroll( function(){
+
+
+                $('.fadeInBlock').each( function(i){
+
+                    var bottom_of_object = $(this).position().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                    /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+                    bottom_of_window = bottom_of_window + 200;
+
+                    if( bottom_of_window > bottom_of_object ){
+
+                        $(this).animate({'opacity':'1'},1666);
+
+                    }
+                });
+
+            });
+        });
+    </script>
 </body>
 </html>

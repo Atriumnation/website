@@ -166,5 +166,7 @@ h1.competition-date {
     border-left: 0px solid #ffffff;
     margin-top: 1px;
     margin-bottom: 200px; } }
+.fadeInBlock {
+  opacity: 0; }
 
 /*# sourceMappingURL=style-home.css.map */
