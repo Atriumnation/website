@@ -30,17 +30,21 @@ a:active {
   background-color: #7e0000;
 }
 
-@media (max-width: 767px) {
-  h1.about-text {
-	padding-top: 20%;} 
-	.Line{
-		display: none;
-	}
-	
-}
+
 
 .video-square {
-	
+	background-color: #313131;
+}
+
+h1.about-text{
+  font-family: AvenirNext-ultralight;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  text-align: left;
+  color: #7e0000;
 }
 
 .our-mission{
@@ -100,4 +104,47 @@ a:active {
 	line-height: 2;
 	text-align: left;
 	color: #7e0000;
+}
+
+@media (max-width: 767px) {
+  h1.about-text {
+    padding-top: -50%;
+  }
+  .mission-one{
+    font-size: 18px;
+  }
+  .mission-two{
+    font-size: 18px;
+  }
+  .mission-three{
+    font-size: 18px;
+  }
+  .Line{
+    display: none;
+  }
+  .saman-logo{
+    width: 250px;
+  }
+}
+
+@media (max-width: 575px){
+  .our-mission{
+    font-size: 35px;
+  }
+  h1.about-text{
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .mission-one{
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .mission-two{
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .mission-three{
+    font-size: 15px;
+    line-height: 1.5;
+  }
 }

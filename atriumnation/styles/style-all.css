@@ -1,0 +1,130 @@
+/* Scss Document */
+@font-face {
+  font-family: avenirnext-ultralight;
+  src: url(../external-font/avenirnext-ultralight.ttf); }
+a:link {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+a:active {
+  text-decoration: none; }
+
+.Saman-Melbourne-Logo {
+  width: 187.5px;
+  height: 187.5px; }
+
+.Line {
+  width: 5px;
+  height: 339px;
+  background-color: #7e0000; }
+
+.video-square {
+  background-color: #313131; }
+
+h1.about-text {
+  font-family: AvenirNext-ultralight;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  text-align: left;
+  color: #7e0000; }
+
+.our-mission {
+  font-family: AvenirNext-ultralight;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  text-align: center;
+  color: #7e0000; }
+
+.mission-one {
+  padding-top: 20%;
+  font-family: AvenirNext-ultralight;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  text-align: right;
+  color: #7e0000; }
+
+.line-dot {
+  width: 5px;
+  height: 339px;
+  background-color: #7e0000;
+  border: solid 1.5px #7e0000; }
+
+.Ellipse-1 {
+  width: 9px;
+  height: 9px;
+  background-color: #ffffff;
+  border: solid 1.5px #7e0000; }
+
+.mission-two {
+  font-family: AvenirNext-ultralight;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  text-align: left;
+  color: #7e0000; }
+
+.mission-three {
+  font-family: AvenirNext-ultralight;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  text-align: left;
+  color: #7e0000; }
+
+@media (max-width: 767px) {
+  h1.about-text {
+    padding-top: -50%; }
+
+  .mission-one {
+    font-size: 18px; }
+
+  .mission-two {
+    font-size: 18px; }
+
+  .mission-three {
+    font-size: 18px; }
+
+  .Line {
+    display: none; }
+
+  .saman-logo {
+    width: 250px; } }
+@media (max-width: 575px) {
+  .our-mission {
+    font-size: 35px; }
+
+  h1.about-text {
+    font-size: 15px;
+    line-height: 1.5; }
+
+  .mission-one {
+    font-size: 15px;
+    line-height: 1.5; }
+
+  .mission-two {
+    font-size: 15px;
+    line-height: 1.5; }
+
+  .mission-three {
+    font-size: 15px;
+    line-height: 1.5; } }
+
+/*# sourceMappingURL=style-all.css.map */

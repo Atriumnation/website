@@ -84,7 +84,7 @@ h1.artiumnation-about {
   margin: auto;
   width: 80%;
   height: 110px;
-  font-family: avenirnext;
+  font-family: avenirnext-ultralight;
   font-size: 20px;
   font-weight: 200;
   font-style: normal;
@@ -92,19 +92,6 @@ h1.artiumnation-about {
   line-height: 2;
   text-align: center;
   color: #b76e79; }
-
-h1.about-text {
-	padding-top: 10%;
-	width: 642px;
-	height: 110px;
-	line-height: 1.5;
-	font-family: avenirnext-ultralight;
-	font-size: 20px;
-	font-weight: 200;
-	font-style: normal;
-	font-stretch: normal;
-	text-align: left;
-	color: #7e0000; }
 
 h1.map-caption {
   height: 100px;
@@ -173,18 +160,11 @@ h1.competition-date {
     padding-top: 20%; } }
 @media (max-width: 767px) {
   div.competition-border-1 {
-	  border-right: 0px solid #ffffff; }
+    border-right: 0px solid #ffffff; }
+
   div.competition-border-2 {
     border-left: 0px solid #ffffff;
     margin-top: 1px;
-	margin-bottom: 200px; }
-}
-@media (max-width: 767px) {
-  h1.about-text {
-	padding-top: 20%;} 
-	
-}
-
-  
+    margin-bottom: 200px; } }
 
 /*# sourceMappingURL=style-home.css.map */
