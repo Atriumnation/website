@@ -9,6 +9,7 @@
 .transparent{
   background-color: transparent;
 }
+
 div.floating-menu-mobile{
   margin: 14px auto auto auto;
   background-color: #7e0000;
@@ -32,9 +33,8 @@ div.floating-menu-mobile{
 }
 
 .artiumnation-logo{
-  max-height: 708px;
-  display: block;
-  margin: auto auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 div.button-container:hover{
@@ -158,8 +158,7 @@ h1.competition-date{
     display: none;
   }
   .artiumnation-logo{
-    max-height: 350px;
-    margin: 10% 10%;
+    padding-top: 20%;
   }
   div.floating-menu-mobile{
     display: table;
@@ -182,9 +181,6 @@ h1.competition-date{
 }
 @media (max-width: 375px){
   .artiumnation-logo{
-    margin-top: 20%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media (max-width: 750px){
