@@ -7,6 +7,9 @@
 .transparent {
   background-color: transparent; }
 
+div.pagetop {
+  margin-top: 5%; }
+
 div.floating-menu-mobile {
   margin: 14px auto auto auto;
   background-color: #7e0000;
@@ -139,6 +142,9 @@ h1.competition-date {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b76e79', endColorstr='#b76e79', GradientType=0 ); }
 
 @media (max-width: 575px) {
+  div.pagetop {
+    margin-top: 15%; }
+
   div.floating-menu {
     display: none; }
 
@@ -162,7 +168,13 @@ h1.competition-date {
 
   h1.competition-date {
     font-size: 20px; } }
+@media (max-width: 375px) {
+  img.artiumnation-logo {
+    padding-top: 25%; } }
 @media (max-width: 750px) {
+  div.pagetop {
+    margin-top: 10%; }
+
   h1.artiumnation-about {
     padding-top: 20%; } }
 @media (max-width: 767px) {
