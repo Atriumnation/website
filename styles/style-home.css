@@ -25,6 +25,11 @@ div.floating-menu-mobile {
     z-index: 2;
     position: relative; }
 
+.artiumnation-logo {
+  max-height: 708px;
+  display: block;
+  margin: auto auto; }
+
 div.button-container:hover {
   transition: 0.4s;
   background-color: #973232;
@@ -138,6 +143,10 @@ h1.competition-date {
   div.floating-menu {
     display: none; }
 
+  .artiumnation-logo {
+    max-height: 350px;
+    margin: 10% 10%; }
+
   div.floating-menu-mobile {
     display: table; }
 
@@ -157,7 +166,9 @@ h1.competition-date {
     font-size: 20px; } }
 @media (max-width: 375px) {
   .artiumnation-logo {
-    margin-top: 10%; } }
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto; } }
 @media (max-width: 750px) {
   h1.artiumnation-about {
     padding-top: 20%; } }
