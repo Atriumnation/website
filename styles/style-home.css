@@ -64,12 +64,12 @@ div.pages {
 
 div.competition-border-1 {
   background-color: #b76e79;
-  height: 45%;
-  max-height: 200px;
+  height: 100%;
+  max-height: 600px;
   padding: 2.5% 0;
   border-right: 2.5px solid #ffffff; }
 
-h1.competition-description {
+.competition-description {
   font-family: avenirnext-ultralight;
   font-size: 14px;
   font-weight: 200;
@@ -81,8 +81,8 @@ h1.competition-description {
 
 div.competition-border-2 {
   background-color: #b76e79;
-  height: 45%;
-  max-height: 200px;
+  height: 100%;
+  max-height: 600px;
   padding: 2.5% 0;
   border-left: 2.5px solid #ffffff; }
 
