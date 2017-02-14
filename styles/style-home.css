@@ -10,6 +10,16 @@
 div.pagetop {
   margin-top: 5%; }
 
+.vertical-center {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 16px; }
+
+.vertical-center img {
+  margin-bottom: 16px; }
+
 div.floating-menu-mobile {
   margin: 14px auto auto auto;
   background-color: #7e0000;
