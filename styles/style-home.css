@@ -7,6 +7,9 @@
 .transparent {
   background-color: transparent; }
 
+.img-center {
+  margin: 0 auto; }
+
 div.pagetop {
   margin-top: 5%; }
 
@@ -18,6 +21,7 @@ div.pagetop {
   margin-bottom: 16px; }
 
 .vertical-center img {
+  max-height: 32px;
   margin-bottom: 16px; }
 
 div.floating-menu-mobile {
